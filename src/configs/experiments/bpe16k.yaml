@@ -1,0 +1,3 @@
+# @package _global_
+run_name: code-bpe16k
+prepared_dir: ../data/prepared/code16k

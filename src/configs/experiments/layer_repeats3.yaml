@@ -1,0 +1,4 @@
+# @package _global_
+run_name: code-layer-repeats3
+model:
+  layer_repeats: 3

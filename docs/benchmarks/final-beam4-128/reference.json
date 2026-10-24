@@ -1,0 +1,12 @@
+{
+  "model_sha256": "13e84e4951ee823bf5d03ca2f7e5eb1078dc7e0d040cdba97eb7e144b837b80c",
+  "predictions_sha256": "ce38be7dcadc86c455776183e061a0f1aba29dae80749c3e1527ad66dca18e8c",
+  "public_pass_at_1_percent": 73.54,
+  "quality_source": "Result reported by the solution author from the Telegram bot",
+  "num_beams": 4,
+  "max_new_tokens": 128,
+  "batch_size": 32,
+  "length_penalty": 0.6,
+  "repeats": 2,
+  "test_rows": 1919
+}

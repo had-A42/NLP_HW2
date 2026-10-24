@@ -1,0 +1,4 @@
+# @package _global_
+run_name: code-rope
+model:
+  position_encoding: rope

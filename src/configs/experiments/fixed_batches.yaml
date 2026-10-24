@@ -1,0 +1,7 @@
+# @package _global_
+run_name: code-fixed-batches
+dataloader:
+  batching: fixed
+  batch_size: 32
+  bucketed: false
+  bucket_batches: 100

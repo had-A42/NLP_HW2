@@ -1,0 +1,25 @@
+defaults:
+  - _self_
+task: code_generation
+checkpoint: saved/code-baseline/best.pt
+prepared_dir: ${oc.env:HW2_PREPARED_DIR,../data/prepared/code8k}
+output_path: predictions.jsonl
+report_path: inference_report.json
+split: test
+device: auto
+batch_size: 64
+max_new_tokens: 64
+cache_type: static
+compile_step: false
+num_beams: 1
+length_penalty: 0.6
+eos_check_interval: 1
+sort_by_length: true
+amp: true
+limit: null
+max_seconds: 180
+require_t4: false
+cpu_threads: 1
+hydra:
+  job:
+    chdir: false

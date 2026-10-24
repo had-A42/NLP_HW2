@@ -1,0 +1,13 @@
+{
+  "repeats": 2,
+  "default_tag": "beam4-128",
+  "variants": [
+    {
+      "tag": "beam4-128",
+      "num_beams": 4,
+      "max_new_tokens": 128,
+      "batch_size": 32,
+      "length_penalty": 0.6
+    }
+  ]
+}

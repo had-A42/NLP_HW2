@@ -1,0 +1,5 @@
+# @package _global_
+run_name: code-shallow-decoder
+model:
+  encoder_layers: 6
+  decoder_layers: 2

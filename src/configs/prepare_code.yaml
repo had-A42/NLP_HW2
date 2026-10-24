@@ -1,0 +1,19 @@
+defaults:
+  - _self_
+data_dir: ${oc.env:HW2_DATA_DIR,../data}
+output_dir: ${oc.env:HW2_PREPARED_DIR,../data/prepared/code8k}
+revision: b2724689ff079e9c22efd548fe134bfb29036dbb
+source_limit: null
+validation_fraction: 0.001
+seed: 42
+num_proc: 4
+deduplicate: false
+max_source_length: 256
+max_target_length: 256
+tokenizer:
+  vocab_size: 8192
+  min_frequency: 2
+  train_limit: 200000
+hydra:
+  job:
+    chdir: false

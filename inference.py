@@ -1,4 +1,7 @@
+import time
 import warnings
+
+_PROCESS_START = time.perf_counter()
 
 import hydra
 import torch
@@ -12,7 +15,7 @@ from src.utils.io_utils import ROOT_PATH
 warnings.filterwarnings("ignore", category=UserWarning)
 
 
-@hydra.main(version_base=None, config_path="src/configs", config_name="inference")
+@hydra.main(version_base=None, config_path="src/configs", config_name="code_inference")
 def main(config):
     """
     Main script for inference. Instantiates the model, metrics, and
@@ -22,6 +25,11 @@ def main(config):
     Args:
         config (DictConfig): hydra experiment config.
     """
+    if config.get("task") == "code_generation":
+        from src.trainer.code_inferencer import run_inference
+
+        return run_inference(config, process_started=_PROCESS_START)
+
     set_random_seed(config.inferencer.seed)
 
     if config.inferencer.device == "auto":

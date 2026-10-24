@@ -1,0 +1,4 @@
+# @package _global_
+run_name: code-pre-norm
+model:
+  norm_style: pre

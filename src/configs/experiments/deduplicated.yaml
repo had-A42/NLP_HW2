@@ -1,0 +1,3 @@
+# @package _global_
+run_name: code-deduplicated
+prepared_dir: ../data/prepared/code8k-dedup

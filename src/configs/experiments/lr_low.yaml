@@ -1,0 +1,4 @@
+# @package _global_
+run_name: code-lr-low
+optimizer:
+  lr: 0.0001

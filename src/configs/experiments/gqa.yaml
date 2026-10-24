@@ -1,0 +1,4 @@
+# @package _global_
+run_name: code-gqa
+model:
+  kv_heads: 2

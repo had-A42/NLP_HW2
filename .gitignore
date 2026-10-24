@@ -107,6 +107,11 @@ saved/
 wandb/
 .cometml-runs/
 outputs/
+kaggle/build/
+predictions*.jsonl
+inference_report*.json
+/benchmarks/
+artifacts/
 
 # editor, os cache directory
 .vscode/

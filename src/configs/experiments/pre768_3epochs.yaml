@@ -1,0 +1,14 @@
+# @package _global_
+run_name: code-pre768-3epochs
+model:
+  norm_style: pre
+  d_model: 768
+  n_heads: 12
+  ffn_dim: 1920
+  encoder_layers: 4
+  decoder_layers: 4
+  layer_repeats: 1
+trainer:
+  max_steps: null
+  max_epochs: 3
+  max_hours: null

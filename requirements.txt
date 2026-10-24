@@ -8,6 +8,10 @@ pandas
 wandb
 comet_ml
 hydra-core
+huggingface_hub
+datasets==4.4.1
+pyarrow==21.0.0
+tokenizers==0.22.2
 
 black
 isort

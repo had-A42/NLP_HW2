@@ -1,0 +1,6 @@
+# @package _global_
+run_name: code-small-11m
+model:
+  d_model: 256
+  n_heads: 4
+  ffn_dim: 1024

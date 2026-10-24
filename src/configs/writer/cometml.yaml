@@ -1,6 +1,6 @@
 _target_: src.logger.CometMLWriter
-project_name: "pytorch_template"
-workspace: null
+project_name: "NLP_HW2"
+workspace: "had-a42"
 run_name: "testing"
 mode: "online"
 loss_names: ["loss"] # which losses to log (useful for multi-loss tasks, s.a. GANs)

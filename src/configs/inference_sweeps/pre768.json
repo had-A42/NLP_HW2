@@ -1,0 +1,12 @@
+{
+  "repeats": 2,
+  "default_tag": "greedy-64",
+  "variants": [
+    {"tag": "greedy-64", "num_beams": 1, "max_new_tokens": 64, "batch_size": 128, "length_penalty": 0.6},
+    {"tag": "greedy-128", "num_beams": 1, "max_new_tokens": 128, "batch_size": 128, "length_penalty": 0.6},
+    {"tag": "beam2-64", "num_beams": 2, "max_new_tokens": 64, "batch_size": 64, "length_penalty": 0.6},
+    {"tag": "beam2-128", "num_beams": 2, "max_new_tokens": 128, "batch_size": 64, "length_penalty": 0.6},
+    {"tag": "beam4-64", "num_beams": 4, "max_new_tokens": 64, "batch_size": 32, "length_penalty": 0.6},
+    {"tag": "beam4-128", "num_beams": 4, "max_new_tokens": 128, "batch_size": 32, "length_penalty": 0.6}
+  ]
+}

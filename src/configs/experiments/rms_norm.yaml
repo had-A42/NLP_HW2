@@ -1,0 +1,4 @@
+# @package _global_
+run_name: code-rms-norm
+model:
+  norm_type: rms
